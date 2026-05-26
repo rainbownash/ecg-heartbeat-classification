@@ -5,7 +5,7 @@ import os
 DATA_URL = "https://drive.google.com/uc?id=1SaVTyD5K5nV0KlDGlLOHmUFp5AKHHACz"
 
 ZIP_NAME = "dataset.zip"
-OUTPUT_DIR = "dataset"
+OUTPUT_DIR = "./data"
 
 def download_dataset():
     print("📦 Descargando dataset...")
